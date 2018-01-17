@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ABC</title>
+
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+    <!--font-family: 'Gochi Hand';-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--font-family: 'Open Sans';-->
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+    <!--font-family: 'Titan One'-->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header class="header-bg_blue">
+    <div class="container">
+        <div class="header__container">
+            <div class="logo header__container_column header__container_column-m">
+                <img class="img-responsive" src="img/logo.png" alt="ABC Logo">
+            </div>
+            <ul class="nav-header nav-info list-unstyled header__container_column header__container_column-b hidden-sm hidden-xs">
+                <li class="nav-info__item nav-header__item_first">
+                    <span class="nav-info__item__text_primary nav-info__item__text">LESSON STARTED:</span>
+                    <span class="nav-info__item__text_small nav-info__item__text js-lesson-started">3rd Jan. 6:00pm</span>
+                </li>
+                <li class="nav-info__item">
+                    <span class="nav-info__item__text_primary nav-info__item__text">Remaining Time:</span>
+                    <span class="nav-info__item__text_small nav-info__item__text js-remaining-time">14:35 mins.</span>
+                </li>
+                <li class="nav-info__item">
+                    <span class="nav-info__item__text_primary nav-info__item__text">Mins. Late:</span>
+                    <span class="nav-info__item__text_small nav-info__item__text js-mins-late">01 mins.</span>
+                </li>
+            </ul>
+            <div class="header__container_column header__container_column-m text-right">
+                <button type="button" class="btn btn-primary">REFRESH</button>
+                <button type="button" class="btn btn-primary">CLASS OVER</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container">
+        <ul class="nav-header nav-info list-unstyled hidden-md hidden-lg nav-info_xs">
+            <li class="nav-info__item nav-header__item_first">
+                <span class="nav-info__item__text_primary nav-info__item__text">LESSON STARTED:</span>
+                <span class="nav-info__item__text_small nav-info__item__text js-lesson-started">3rd Jan. 6:00pm</span>
+            </li>
+            <li class="nav-info__item">
+                <span class="nav-info__item__text_primary nav-info__item__text">Remaining Time:</span>
+                <span class="nav-info__item__text_small nav-info__item__text js-remaining-time">14:35 mins.</span>
+            </li>
+            <li class="nav-info__item">
+                <span class="nav-info__item__text_primary nav-info__item__text">Mins. Late:</span>
+                <span class="nav-info__item__text_small nav-info__item__text js-mins-late">01 mins.</span>
+            </li>
+        </ul>
+
+        <div class="row row-sm-padding">
+            <div class="col-sm-4" data-mh="video-group">
+                <div class="column__video-preview js-video-preview_apprentice">
+                    <span class="js-video-preview_text">Zhang</span>
+                    <img src="img/Zhang.png" class="img-responsive" alt="">
+                </div>
+                <div class="column__video-preview js-video-preview_teacher">
+                    <span class="js-video-preview_text">Eugene</span>
+                    <img src="img/Eugene.png" class="img-responsive" alt="">
+                </div>
+                <div class="js-chat">
+                    <ul class="list-unstyled chat__messages clearfix">
+                        <li class="chat__messages__msg pull-right">
+                            <div class="chat__messages__msg_text">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Architecto deserunt ducimus ea fugit impedit obcaecati quae repellat
+                                reprehenderit soluta vitae. Culpa deleniti earum illum iste nam non quo similique sunt.
+                            </div>
+                            <img class="chat__messages__msg_avatar" src="img/avatar.jpg" alt="">
+                        </li>
+                        <li class="chat__messages__msg pull-right">
+                            <div class="chat__messages__msg_text">Lorem ipsum dolor sit amet.</div>
+                            <img class="chat__messages__msg_avatar" src="img/avatar.jpg" alt="">
+                        </li>
+                        <li class="chat__messages__msg pull-right">
+                            <div class="chat__messages__msg_text">Lorem ipsum dolor.</div>
+                            <img class="chat__messages__msg_avatar" src="img/avatar.jpg" alt="">
+                        </li>
+                        <li class="chat__messages__msg pull-left">
+                            <div class="chat__messages__msg_text">Ok</div>
+                            <img class="chat__messages__msg_avatar" src="img/avatar.jpg" alt="">
+                        </li>
+                        <li class="chat__messages__msg pull-left">
+                            <div class="chat__messages__msg_text">Lorem ipsum dolor.</div>
+                            <img class="chat__messages__msg_avatar" src="img/avatar.jpg" alt="">
+                        </li>
+                        <li class="chat__messages__msg pull-right">
+                            <div class="chat__messages__msg_text">Lorem ipsum dolor sit amet.</div>
+                            <img class="chat__messages__msg_avatar" src="img/avatar.jpg" alt="">
+                        </li>
+                    </ul>
+                    <div class="chat__control">
+                        <input class="chat__control_input form-control js-chat-input" placeholder="Type to chat..."/>
+                        <button type="button" class="btn btn-primary btn-small chat__control_btn js-send-msg">SEND</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8" data-mh="video-group">
+                <div class="kam">
+                    <span class="kam__preview_text">(KAMI)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- jQuery first, then Bootstrap JS. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+<script src="js/"></script>
+</body>
+</html>
